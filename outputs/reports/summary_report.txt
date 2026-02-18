@@ -1,0 +1,30 @@
+============================================================
+AUTOAUDIT PERFORMANCE ANALYSIS REPORT
+============================================================
+
+DATASET SUMMARY
+----------------------------------------
+Total Systems: 500
+Total Records: 4500
+Principles: 9
+System Types: 5
+
+PERFORMANCE SUMMARY
+----------------------------------------
+Baseline Avg Accuracy: 0.8306
+Proposed Avg Accuracy: 0.9173
+Average Improvement: 0.0867
+
+MODEL PERFORMANCE
+----------------------------------------
+Accuracy Model R² (RF): 0.8381
+Accuracy Model R² (GB): 0.8438
+Improvement Model R²: 0.1038
+
+TOP FEATURES
+----------------------------------------
+principle_encoded: 0.8957
+category_encoded: 0.0606
+development_year: 0.0180
+data_volume_encoded: 0.0116
+system_type_encoded: 0.0082
